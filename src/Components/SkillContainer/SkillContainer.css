@@ -1,0 +1,60 @@
+/* font  */
+
+.skillContainer__image {
+/* width: 28%; */
+flex: 0.4;
+text-align: center;
+margin-right: 100px;
+}
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.skillContainer__texxt{
+    color: white;
+         flex:0.6;
+         text-align: left;
+        max-width: 500px;
+        margin-bottom: 20px; 
+}
+
+.skillContainer__texxt > h2{
+    font-size: 30px;
+}
+.skillContainer__image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.skillContainer__skillSet > h5{
+    font-family: "Montserrat",sans-serif ;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+.skillContainer__slider > .MuiLinearProgress-colorPrimary{
+    background-color: rgb(88, 88, 88);
+}
+
+/* .skillContainer__slider1 >span > .MuiLinearProgress-bar.ColorPrimary{
+    background-color: tomato;
+} */
+ 
+.skillContainer__image{
+    transition:transform ease-in 0.5s;
+    border: 7px solid rgb(88, 88, 88);
+    border-radius: 3px;
+}
+.skillContainer__image:hover{
+    transform: scale(0.9);
+}
+
+
+
